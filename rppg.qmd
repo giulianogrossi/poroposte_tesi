@@ -1,6 +1,6 @@
 # RPPG e segnali vitali {.unnumbered}
 
-## Titolo: Monitoraggio Non Invasivo della Vitalità nel Trapianto Cutaneo tramite rPPG e Analisi Spettrale Explainable
+## _Titolo_: Monitoraggio Non Invasivo della Vitalità nel Trapianto Cutaneo tramite rPPG e Analisi Spettrale Explainable
 
 ![](images/rppg.png)
 

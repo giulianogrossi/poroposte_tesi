@@ -1,4 +1,4 @@
-# Presentazione {.unnumbered}
+# Intro {.unnumbered}
 
 Le tesi proposte nell’area **Health, AI e Multimedia Analysis** si articolano in due principali tipologie, pensate per valorizzare differenti inclinazioni e obiettivi formativi dello studente:
 
