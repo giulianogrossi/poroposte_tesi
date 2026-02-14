@@ -75,3 +75,9 @@ Progettare e validare un sistema rPPG non invasivo per:
   - telemonitoraggio domiciliare.
 
 Il progetto rappresenta un ponte tra ingegneria biomedica, computer vision e chirurgia ricostruttiva, con applicazione diretta in contesto ospedaliero ad alta specializzazione.
+
+## Biblio
+
+::: {#refs}
+@rppg_Access, @Boccignone2022pyVHR, @Boccignone2025PSDClustering
+:::
