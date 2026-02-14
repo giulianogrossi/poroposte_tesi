@@ -504,7 +504,7 @@
     "href": "deep_clustering.html#estensioni-future",
     "title": "Deep clustering",
     "section": "Estensioni Future",
-    "text": "Estensioni Future\n\nCircleClustering su manifolds generali.\nIntegrazione con metric learning.\nVersione probabilistica bayesiana.\nCircleClustering per segmentation.\n\n\nPapers:\n\nScarica la tesi completa (PDF)\nBoccignone et al. (2025)",
+    "text": "Estensioni Future\n\nCircleClustering su manifolds generali.\nIntegrazione con metric learning.\nVersione probabilistica bayesiana.\nCircleClustering per segmentation.\n\n\nPapers:\n\ntesi su circle clustering\nUso di circle lcustering: Boccignone et al. (2025)",
     "crumbs": [
       "Deep clustering"
     ]
