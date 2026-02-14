@@ -13,6 +13,7 @@ book:
     - rppg.qmd
     - hands1.qmd
     - hands2.qmd
+    - deep_clustering.qmd
 
 format:
   html:
