@@ -1,0 +1,23 @@
+project:
+  type: book
+
+book:
+  title: "Proposte tesi (LM)"
+  author: "G. Grossi"
+  date: "13/02/2026"
+  chapters:
+    - index.qmd
+    - landmarks.qmd
+    - health1.qmd
+    - health2.qmd
+    - rppg.qmd
+
+format:
+  html:
+    theme:
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+
+

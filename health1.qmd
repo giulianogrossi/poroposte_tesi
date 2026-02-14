@@ -1,0 +1,39 @@
+# Health 1 {.unnumbered}
+
+## Titolo: Architettura Multi-Agent per Patient Digital Twin: Progettazione e Validazione di un Orchestratore Clinico Explainable
+
+![](images/health.png)
+
+## Contesto
+
+Il progetto AI-HealthGuard propone un ecosistema multi-agent basato su Patient Digital Twins (PDT), in cui agenti intelligenti coordinano modelli multimodali per supportare diagnosi, simulazione terapeutica e monitoraggio continuo.
+
+In questo paradigma, il Patient Digital Twin Agent mantiene la rappresentazione dinamica del paziente e orchestra servizi AI esterni (Med-MLLM, modelli imaging, omics, segnali fisiologici).
+
+## Obiettivo
+
+Progettare e implementare un **prototipo di Orchestrator Agent** capace di:
+
+- decomporre task clinici complessi in sotto-task multimodali;
+- interrogare modelli specialistici;
+- integrare risultati in modo coerente e interpretabile;
+- fornire spiegazioni causali e feature-based.
+
+## Attività
+
+1. Modellazione architetturale dell’agente PDT.
+2. Implementazione pipeline multi-agent (simulata o su dataset reale).
+3. Integrazione di moduli di Explainable AI (XAI):
+   - feature attribution (es. SHAP-like),
+   - query controfattuali.
+4. Valutazione su caso studio (es. oncologia o neurodegenerazione).
+
+## Risultati Attesi
+
+- Prototipo funzionante di agente orchestratore.
+- Valutazione di performance e qualità esplicativa.
+- Analisi critica dell’applicabilità clinica.
+
+## Impatto
+
+Contributo alla formalizzazione di architetture Patient Digital Twin explainable e clinician-in-the-loop.

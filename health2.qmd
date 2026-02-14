@@ -1,0 +1,42 @@
+# Heatlh 2 {.unnumbered}
+
+## Titolo: Infrastruttura Federata e Privacy-Preserving per l’Addestramento di Modelli AI in Sanità: Progettazione e Valutazione di un Framework Edge–Cloud–Blockchain
+
+![](images/health.png)
+
+## Contesto
+
+AI-HealthGuard prevede un’infrastruttura federata europea in cui i dati sanitari rimangono localmente (Edge Layer), mentre solo aggiornamenti di modello vengono aggregati nel Cloud, con tracciabilità garantita da blockchain permissioned.
+
+L’obiettivo è garantire:
+- sovranità del dato,
+- compliance GDPR,
+- auditabilità e trasparenza.
+
+## Obiettivo
+
+Progettare e valutare un **framework federato privacy-preserving** che integri:
+
+- Federated Learning;
+- tecniche di Differential Privacy;
+- registrazione e audit tramite blockchain permissioned.
+
+## Attività
+
+1. Implementazione prototipale di pipeline federata (simulazione multi-nodo).
+2. Applicazione di meccanismi di privacy (rumore DP su gradienti).
+3. Simulazione di smart contract per logging e controllo accessi.
+4. Analisi di:
+   - performance del modello globale,
+   - trade-off privacy-accuratezza,
+   - costi computazionali.
+
+## Risultati Attesi
+
+- Framework dimostrativo edge–cloud.
+- Valutazione quantitativa di robustezza e compliance-by-design.
+- Linee guida per implementazione su scala europea.
+
+## Impatto
+
+Contributo alla definizione di infrastrutture AI sanitarie sovrane, interoperabili e regolamentazione-ready.

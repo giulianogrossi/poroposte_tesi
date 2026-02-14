@@ -1,0 +1,71 @@
+# Landmarks 3D {.unnumbered}
+
+## Titolo: Analisi Automatizzata di Landmark 3D per il Riconoscimento Anatomico e il Supporto alle Decisioni Cliniche
+
+## Contesto e Motivazione
+
+L’analisi dei *landmark* anatomici tridimensionali rappresenta uno strumento fondamentale per la descrizione quantitativa della morfologia umana a partire da dati di imaging 3D (TC, CBCT, scansioni ottiche, nuvole di punti).
+
+L’identificazione automatica di punti anatomici di riferimento consente di:
+
+- migliorare l’oggettività delle valutazioni cliniche;
+- supportare la pianificazione chirurgica;
+- monitorare l’evoluzione terapeutica;
+- ridurre la variabilità inter-operatore.
+
+Tuttavia, la variabilità anatomica e la complessità dei dati tridimensionali rendono ancora sfidante una localizzazione robusta e generalizzabile.
+
+## Obiettivi della Tesi
+
+L’obiettivo principale è progettare, implementare e validare un sistema automatico per la localizzazione di landmark 3D con applicazione in ambito clinico.
+
+Obiettivi specifici:
+
+1. Definizione di un set di landmark clinicamente rilevanti.
+2. Implementazione di modelli di *machine learning* per la localizzazione automatica.
+3. Valutazione quantitativa rispetto a ground truth manuale.
+4. Analisi delle metriche morfometriche derivate.
+
+## Stato dell’Arte (Sintesi)
+
+Le principali metodologie includono:
+
+- Convolutional Neural Networks 3D per dati volumetrici;
+- Architetture per *point clouds* (es. PointNet e varianti);
+- Modelli statistici di forma;
+- Approcci multi-scala basati su regressione diretta delle coordinate.
+
+Le ricerche recenti mostrano risultati promettenti, ma persistono criticità in termini di robustezza, interpretabilità e trasferibilità clinica.
+
+## Metodologia
+
+### 1. Dataset e Preprocessing
+
+- Raccolta e selezione di dataset 3D
+- Normalizzazione spaziale
+- Segmentazione delle strutture di interesse
+- Suddivisione in training/validation/test
+
+### 2. Sviluppo del Modello
+
+- Progettazione di architettura 3D (CNN o modello per nuvole di punti)
+- Addestramento supervisionato
+- Ottimizzazione tramite funzione di perdita basata su distanza euclidea
+
+### 3. Analisi Clinica
+
+- Calcolo di distanze e angoli anatomici
+- Valutazione di indici di simmetria
+- Discussione dell’impatto clinico
+
+## Risultati Attesi
+
+- Sistema prototipale per localizzazione automatica di landmark 3D
+- Valutazione quantitativa delle prestazioni
+- Analisi critica dell’applicabilità clinica
+
+
+## Impatto Atteso
+
+Il progetto mira a contribuire allo sviluppo di strumenti computazionali a supporto della diagnosi e pianificazione terapeutica basati su analisi morfometrica automatizzata.
+

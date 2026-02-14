@@ -1,0 +1,77 @@
+# RPPG e segnali vitali {.unnumbered}
+
+## Titolo: Monitoraggio Non Invasivo della Vitalità nel Trapianto Cutaneo tramite rPPG e Analisi Spettrale Explainable
+
+![](images/rppg.png)
+
+## Contesto
+
+Nel contesto della chirurgia plastica e ricostruttiva (es. Humanitas), il monitoraggio precoce della vitalità del trapianto cutaneo è fondamentale per prevenire complicanze quali ischemia, congestione venosa e necrosi del graft.
+
+La valutazione clinica attuale si basa principalmente su:
+
+- osservazione visiva (colore, turgore),
+- temperatura locale,
+- test capillari,
+- eventuali tecniche Doppler.
+
+Tali metodi presentano limiti di soggettività e non sempre consentono un’identificazione precoce del deterioramento della perfusione.
+
+La **remote photoplethysmography (rPPG)** permette di stimare in modo *contactless* le variazioni del volume ematico attraverso l’analisi delle variazioni cromatiche cutanee nel dominio RGB. Recenti studi dimostrano che l’analisi spettrale (PSD) e la selezione adattiva di patch migliorano significativamente la robustezza del segnale pulsatile, anche in presenza di rumore e movimenti  <
+
+Applicare tali tecniche al trapianto cutaneo consente di stimare un indice quantitativo di perfusione microvascolare del graft .
+
+## Obiettivo
+
+Progettare e validare un sistema rPPG non invasivo per:
+
+1. Stimare la perfusione ematica del trapianto cutaneo.
+2. Identificare precocemente condizioni di ipoperfusione o ischemia.
+3. Definire un indice quantitativo di vitalità del graft basato su analisi spettrale e coerenza inter-patch.
+4. Integrare un modello explainable per supportare la decisione clinica.
+
+## Attività
+
+1. **Acquisizione dati clinici**
+   - Video RGB ad alta risoluzione del graft.
+   - ROI: area trapiantata + area cutanea sana di controllo.
+   - Raccolta ground truth (valutazione clinica, Doppler).
+
+2. **Estrazione del segnale rPPG**
+   - Segmentazione in patch multiple sull’area del graft.
+   - Media spaziale dei segnali RGB.
+   - Normalizzazione temporale e filtraggio banda cardiaca ($0.65–4$ Hz).
+
+3. **Analisi spettrale**
+   - Calcolo PSD tramite metodo di Welch.
+   - Identificazione del picco pulsatile.
+   - Stima ampiezza e coerenza spettrale.
+
+4. **Clustering e selezione adattiva**
+   - Separazione patch coerenti/incoerenti tramite clustering PSD.
+   - Identificazione del cluster “buona perfusione”.
+
+5. **Validazione clinica**
+   - Analisi sensibilità/specificità.
+   - Curve ROC.
+   - Confronto con outcome clinici reali.
+
+## Risultati Attesi
+
+- Prototipo software per monitoraggio bedside del graft.
+- Dimostrazione della correlazione tra indice rPPG e vitalità clinica.
+- Identificazione precoce di graft failure.
+- Riduzione della soggettività nella valutazione post-operatoria.
+- Modello interpretabile e explainable per uso clinico.
+
+## Impatto
+
+- Miglioramento della sicurezza post-operatoria.
+- Riduzione di reinterventi tardivi.
+- Introduzione di monitoraggio continuo non invasivo.
+- Potenziale estensione a:
+  - lembi microchirurgici,
+  - trapianti complessi,
+  - telemonitoraggio domiciliare.
+
+Il progetto rappresenta un ponte tra ingegneria biomedica, computer vision e chirurgia ricostruttiva, con applicazione diretta in contesto ospedaliero ad alta specializzazione.
