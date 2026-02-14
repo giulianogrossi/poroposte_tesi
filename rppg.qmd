@@ -2,7 +2,7 @@
 
 ## _Titolo_: Monitoraggio Non Invasivo della Vitalità nel Trapianto Cutaneo tramite rPPG e Analisi Spettrale Explainable
 
-![](images/rppg.png)
+![](images/rppg.png){fig-align="center" width="60%"}
 
 ## Contesto
 
@@ -79,5 +79,7 @@ Il progetto rappresenta un ponte tra ingegneria biomedica, computer vision e chi
 ## Biblio
 
 ::: {#refs}
-@rppg_Access, @Boccignone2022pyVHR, @Boccignone2025PSDClustering
+@rppg_Access 
+@Boccignone2022pyVHR
+@Boccignone2025PSDClustering 
 :::
