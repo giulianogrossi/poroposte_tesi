@@ -1,0 +1,402 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Proposte tesi (LM)",
+    "section": "",
+    "text": "Intro\nLe tesi proposte nell’area Health, AI e Multimedia Analysis si articolano in due principali tipologie, pensate per valorizzare differenti inclinazioni e obiettivi formativi dello studente:\nEntrambe prevedono rigore scientifico, sviluppo software e validazione quantitativa, ma differiscono per enfasi e contesto operativo.",
+    "crumbs": [
+      "Intro"
+    ]
+  },
+  {
+    "objectID": "index.html#tesi-di-carattere-teorico",
+    "href": "index.html#tesi-di-carattere-teorico",
+    "title": "Proposte tesi (LM)",
+    "section": "1. Tesi di Carattere Teorico",
+    "text": "1. Tesi di Carattere Teorico\n\nSviluppo di Modelli di Deep Learning e AI Avanzata\nQueste tesi sono orientate alla progettazione e sviluppo di nuovi modelli computazionali, con particolare attenzione a:\n\nDeep Learning per segnali biomedici\nModelli multimodali (video, segnali fisiologici, testo clinico)\nArchitetture Transformer e reti neurali spettrali\nExplainable AI (XAI)\nMetric learning e self-supervised learning\nClustering non supervisionato e analisi spettrale\n\nL’obiettivo è contribuire allo sviluppo metodologico, introducendo nuove architetture o strategie di apprendimento con validazione su dataset di riferimento o clinici.\n\n\nCaratteristiche principali\n\nForte componente matematica e modellistica\n\nAnalisi teorica delle prestazioni\n\nStudio della generalizzazione e robustezza\n\nPossibile pubblicazione scientifica in ambito AI/ML\n\nIdeali per studenti interessati a:\n\nRicerca accademica\nDottorato\nSviluppo di algoritmi innovativi",
+    "crumbs": [
+      "Intro"
+    ]
+  },
+  {
+    "objectID": "index.html#tesi-di-carattere-sperimentale",
+    "href": "index.html#tesi-di-carattere-sperimentale",
+    "title": "Proposte tesi (LM)",
+    "section": "2. Tesi di Carattere Sperimentale",
+    "text": "2. Tesi di Carattere Sperimentale\n\nMultimedia, Analisi del Comportamento Umano e Salute\nQueste tesi sono focalizzate su applicazioni reali, spesso in collaborazione con strutture cliniche o laboratori sperimentali.\nAmbiti tipici:\n\nAnalisi video per salute e monitoraggio clinico\n\nRemote photoplethysmography (rPPG)\n\nAnalisi del comportamento umano da segnali audiovisivi\n\nValutazione dello stato emotivo o cognitivo\n\nMonitoraggio non invasivo in ambito sanitario\n\nSistemi intelligenti per ambienti smart healthcare\n\nL’attenzione è rivolta a:\n\nAcquisizione dati reali\n\nProgettazione pipeline completa (end-to-end)\n\nValidazione sperimentale su casi clinici o scenari realistici\n\nIntegrazione tra modelli AI e vincoli del mondo reale\n\n\n\nCaratteristiche principali\n\nForte componente applicativa\n\nCollaborazione interdisciplinare\n\nValutazione statistica su dati reali\n\nImpatto clinico o industriale\n\nIdeali per studenti interessati a:\n\nInnovazione tecnologica in ambito sanitario\n\nTrasferimento tecnologico\n\nIngegneria applicata e sviluppo prototipale",
+    "crumbs": [
+      "Intro"
+    ]
+  },
+  {
+    "objectID": "landmarks.html",
+    "href": "landmarks.html",
+    "title": "Landmarks 3D",
+    "section": "",
+    "text": "Titolo: Analisi Automatizzata di Landmark 3D per il Riconoscimento Anatomico e il Supporto alle Decisioni Cliniche",
+    "crumbs": [
+      "Landmarks 3D"
+    ]
+  },
+  {
+    "objectID": "landmarks.html#contesto-e-motivazione",
+    "href": "landmarks.html#contesto-e-motivazione",
+    "title": "Landmarks 3D",
+    "section": "Contesto e Motivazione",
+    "text": "Contesto e Motivazione\nL’analisi dei landmark anatomici tridimensionali rappresenta uno strumento fondamentale per la descrizione quantitativa della morfologia umana a partire da dati di imaging 3D (TC, CBCT, scansioni ottiche, nuvole di punti).\nL’identificazione automatica di punti anatomici di riferimento consente di:\n\nmigliorare l’oggettività delle valutazioni cliniche;\nsupportare la pianificazione chirurgica;\nmonitorare l’evoluzione terapeutica;\nridurre la variabilità inter-operatore.\n\nTuttavia, la variabilità anatomica e la complessità dei dati tridimensionali rendono ancora sfidante una localizzazione robusta e generalizzabile.",
+    "crumbs": [
+      "Landmarks 3D"
+    ]
+  },
+  {
+    "objectID": "landmarks.html#obiettivi-della-tesi",
+    "href": "landmarks.html#obiettivi-della-tesi",
+    "title": "Landmarks 3D",
+    "section": "Obiettivi della Tesi",
+    "text": "Obiettivi della Tesi\nL’obiettivo principale è progettare, implementare e validare un sistema automatico per la localizzazione di landmark 3D con applicazione in ambito clinico.\nObiettivi specifici:\n\nDefinizione di un set di landmark clinicamente rilevanti.\nImplementazione di modelli di machine learning per la localizzazione automatica.\nValutazione quantitativa rispetto a ground truth manuale.\nAnalisi delle metriche morfometriche derivate.",
+    "crumbs": [
+      "Landmarks 3D"
+    ]
+  },
+  {
+    "objectID": "landmarks.html#stato-dellarte-sintesi",
+    "href": "landmarks.html#stato-dellarte-sintesi",
+    "title": "Landmarks 3D",
+    "section": "Stato dell’Arte (Sintesi)",
+    "text": "Stato dell’Arte (Sintesi)\nLe principali metodologie includono:\n\nConvolutional Neural Networks 3D per dati volumetrici;\nArchitetture per point clouds (es. PointNet e varianti);\nModelli statistici di forma;\nApprocci multi-scala basati su regressione diretta delle coordinate.\n\nLe ricerche recenti mostrano risultati promettenti, ma persistono criticità in termini di robustezza, interpretabilità e trasferibilità clinica.",
+    "crumbs": [
+      "Landmarks 3D"
+    ]
+  },
+  {
+    "objectID": "landmarks.html#metodologia",
+    "href": "landmarks.html#metodologia",
+    "title": "Landmarks 3D",
+    "section": "Metodologia",
+    "text": "Metodologia\n\n1. Dataset e Preprocessing\n\nRaccolta e selezione di dataset 3D\nNormalizzazione spaziale\nSegmentazione delle strutture di interesse\nSuddivisione in training/validation/test\n\n\n\n2. Sviluppo del Modello\n\nProgettazione di architettura 3D (CNN o modello per nuvole di punti)\nAddestramento supervisionato\nOttimizzazione tramite funzione di perdita basata su distanza euclidea\n\n\n\n3. Analisi Clinica\n\nCalcolo di distanze e angoli anatomici\nValutazione di indici di simmetria\nDiscussione dell’impatto clinico",
+    "crumbs": [
+      "Landmarks 3D"
+    ]
+  },
+  {
+    "objectID": "landmarks.html#risultati-attesi",
+    "href": "landmarks.html#risultati-attesi",
+    "title": "Landmarks 3D",
+    "section": "Risultati Attesi",
+    "text": "Risultati Attesi\n\nSistema prototipale per localizzazione automatica di landmark 3D\nValutazione quantitativa delle prestazioni\nAnalisi critica dell’applicabilità clinica",
+    "crumbs": [
+      "Landmarks 3D"
+    ]
+  },
+  {
+    "objectID": "landmarks.html#impatto-atteso",
+    "href": "landmarks.html#impatto-atteso",
+    "title": "Landmarks 3D",
+    "section": "Impatto Atteso",
+    "text": "Impatto Atteso\nIl progetto mira a contribuire allo sviluppo di strumenti computazionali a supporto della diagnosi e pianificazione terapeutica basati su analisi morfometrica automatizzata.",
+    "crumbs": [
+      "Landmarks 3D"
+    ]
+  },
+  {
+    "objectID": "health1.html",
+    "href": "health1.html",
+    "title": "Health (1)",
+    "section": "",
+    "text": "Titolo: Architettura Multi-Agent per Patient Digital Twin: Progettazione e Validazione di un Orchestratore Clinico Explainable",
+    "crumbs": [
+      "Health (1)"
+    ]
+  },
+  {
+    "objectID": "health1.html#contesto",
+    "href": "health1.html#contesto",
+    "title": "Health (1)",
+    "section": "Contesto",
+    "text": "Contesto\nIl progetto AI-HealthGuard propone un ecosistema multi-agent basato su Patient Digital Twins (PDT), in cui agenti intelligenti coordinano modelli multimodali per supportare diagnosi, simulazione terapeutica e monitoraggio continuo.\nIn questo paradigma, il Patient Digital Twin Agent mantiene la rappresentazione dinamica del paziente e orchestra servizi AI esterni (Med-MLLM, modelli imaging, omics, segnali fisiologici).",
+    "crumbs": [
+      "Health (1)"
+    ]
+  },
+  {
+    "objectID": "health1.html#obiettivo",
+    "href": "health1.html#obiettivo",
+    "title": "Health (1)",
+    "section": "Obiettivo",
+    "text": "Obiettivo\nProgettare e implementare un prototipo di Orchestrator Agent capace di:\n\ndecomporre task clinici complessi in sotto-task multimodali;\ninterrogare modelli specialistici;\nintegrare risultati in modo coerente e interpretabile;\nfornire spiegazioni causali e feature-based.",
+    "crumbs": [
+      "Health (1)"
+    ]
+  },
+  {
+    "objectID": "health1.html#attività",
+    "href": "health1.html#attività",
+    "title": "Health (1)",
+    "section": "Attività",
+    "text": "Attività\n\nModellazione architetturale dell’agente PDT.\nImplementazione pipeline multi-agent (simulata o su dataset reale).\nIntegrazione di moduli di Explainable AI (XAI):\n\nfeature attribution (es. SHAP-like),\nquery controfattuali.\n\nValutazione su caso studio (es. oncologia o neurodegenerazione).",
+    "crumbs": [
+      "Health (1)"
+    ]
+  },
+  {
+    "objectID": "health1.html#risultati-attesi",
+    "href": "health1.html#risultati-attesi",
+    "title": "Health (1)",
+    "section": "Risultati Attesi",
+    "text": "Risultati Attesi\n\nPrototipo funzionante di agente orchestratore.\nValutazione di performance e qualità esplicativa.\nAnalisi critica dell’applicabilità clinica.",
+    "crumbs": [
+      "Health (1)"
+    ]
+  },
+  {
+    "objectID": "health1.html#impatto",
+    "href": "health1.html#impatto",
+    "title": "Health (1)",
+    "section": "Impatto",
+    "text": "Impatto\nContributo alla formalizzazione di architetture Patient Digital Twin explainable e clinician-in-the-loop.",
+    "crumbs": [
+      "Health (1)"
+    ]
+  },
+  {
+    "objectID": "health2.html",
+    "href": "health2.html",
+    "title": "Heatlh (2)",
+    "section": "",
+    "text": "Titolo: Infrastruttura Federata e Privacy-Preserving per l’Addestramento di Modelli AI in Sanità: Progettazione e Valutazione di un Framework Edge–Cloud–Blockchain",
+    "crumbs": [
+      "Heatlh (2)"
+    ]
+  },
+  {
+    "objectID": "health2.html#contesto",
+    "href": "health2.html#contesto",
+    "title": "Heatlh (2)",
+    "section": "Contesto",
+    "text": "Contesto\nAI-HealthGuard prevede un’infrastruttura federata europea in cui i dati sanitari rimangono localmente (Edge Layer), mentre solo aggiornamenti di modello vengono aggregati nel Cloud, con tracciabilità garantita da blockchain permissioned.\nL’obiettivo è garantire: - sovranità del dato, - compliance GDPR, - auditabilità e trasparenza.",
+    "crumbs": [
+      "Heatlh (2)"
+    ]
+  },
+  {
+    "objectID": "health2.html#obiettivo",
+    "href": "health2.html#obiettivo",
+    "title": "Heatlh (2)",
+    "section": "Obiettivo",
+    "text": "Obiettivo\nProgettare e valutare un framework federato privacy-preserving che integri:\n\nFederated Learning;\ntecniche di Differential Privacy;\nregistrazione e audit tramite blockchain permissioned.",
+    "crumbs": [
+      "Heatlh (2)"
+    ]
+  },
+  {
+    "objectID": "health2.html#attività",
+    "href": "health2.html#attività",
+    "title": "Heatlh (2)",
+    "section": "Attività",
+    "text": "Attività\n\nImplementazione prototipale di pipeline federata (simulazione multi-nodo).\nApplicazione di meccanismi di privacy (rumore DP su gradienti).\nSimulazione di smart contract per logging e controllo accessi.\nAnalisi di:\n\nperformance del modello globale,\ntrade-off privacy-accuratezza,\ncosti computazionali.",
+    "crumbs": [
+      "Heatlh (2)"
+    ]
+  },
+  {
+    "objectID": "health2.html#risultati-attesi",
+    "href": "health2.html#risultati-attesi",
+    "title": "Heatlh (2)",
+    "section": "Risultati Attesi",
+    "text": "Risultati Attesi\n\nFramework dimostrativo edge–cloud.\nValutazione quantitativa di robustezza e compliance-by-design.\nLinee guida per implementazione su scala europea.",
+    "crumbs": [
+      "Heatlh (2)"
+    ]
+  },
+  {
+    "objectID": "health2.html#impatto",
+    "href": "health2.html#impatto",
+    "title": "Heatlh (2)",
+    "section": "Impatto",
+    "text": "Impatto\nContributo alla definizione di infrastrutture AI sanitarie sovrane, interoperabili e regolamentazione-ready.",
+    "crumbs": [
+      "Heatlh (2)"
+    ]
+  },
+  {
+    "objectID": "rppg.html",
+    "href": "rppg.html",
+    "title": "RPPG e segnali vitali",
+    "section": "",
+    "text": "Titolo: Monitoraggio Non Invasivo della Vitalità nel Trapianto Cutaneo tramite rPPG e Analisi Spettrale Explainable",
+    "crumbs": [
+      "RPPG e segnali vitali"
+    ]
+  },
+  {
+    "objectID": "rppg.html#contesto",
+    "href": "rppg.html#contesto",
+    "title": "RPPG e segnali vitali",
+    "section": "Contesto",
+    "text": "Contesto\nNel contesto della chirurgia plastica e ricostruttiva (es. Humanitas), il monitoraggio precoce della vitalità del trapianto cutaneo è fondamentale per prevenire complicanze quali ischemia, congestione venosa e necrosi del graft.\nLa valutazione clinica attuale si basa principalmente su:\n\nosservazione visiva (colore, turgore),\ntemperatura locale,\ntest capillari,\neventuali tecniche Doppler.\n\nTali metodi presentano limiti di soggettività e non sempre consentono un’identificazione precoce del deterioramento della perfusione.\nLa remote photoplethysmography (rPPG) permette di stimare in modo contactless le variazioni del volume ematico attraverso l’analisi delle variazioni cromatiche cutanee nel dominio RGB. Recenti studi dimostrano che l’analisi spettrale (PSD) e la selezione adattiva di patch migliorano significativamente la robustezza del segnale pulsatile, anche in presenza di rumore e movimenti &lt;\nApplicare tali tecniche al trapianto cutaneo consente di stimare un indice quantitativo di perfusione microvascolare del graft .",
+    "crumbs": [
+      "RPPG e segnali vitali"
+    ]
+  },
+  {
+    "objectID": "rppg.html#obiettivo",
+    "href": "rppg.html#obiettivo",
+    "title": "RPPG e segnali vitali",
+    "section": "Obiettivo",
+    "text": "Obiettivo\nProgettare e validare un sistema rPPG non invasivo per:\n\nStimare la perfusione ematica del trapianto cutaneo.\nIdentificare precocemente condizioni di ipoperfusione o ischemia.\nDefinire un indice quantitativo di vitalità del graft basato su analisi spettrale e coerenza inter-patch.\nIntegrare un modello explainable per supportare la decisione clinica.",
+    "crumbs": [
+      "RPPG e segnali vitali"
+    ]
+  },
+  {
+    "objectID": "rppg.html#attività",
+    "href": "rppg.html#attività",
+    "title": "RPPG e segnali vitali",
+    "section": "Attività",
+    "text": "Attività\n\nAcquisizione dati clinici\n\nVideo RGB ad alta risoluzione del graft.\nROI: area trapiantata + area cutanea sana di controllo.\nRaccolta ground truth (valutazione clinica, Doppler).\n\nEstrazione del segnale rPPG\n\nSegmentazione in patch multiple sull’area del graft.\nMedia spaziale dei segnali RGB.\nNormalizzazione temporale e filtraggio banda cardiaca (\\(0.65–4\\) Hz).\n\nAnalisi spettrale\n\nCalcolo PSD tramite metodo di Welch.\nIdentificazione del picco pulsatile.\nStima ampiezza e coerenza spettrale.\n\nClustering e selezione adattiva\n\nSeparazione patch coerenti/incoerenti tramite clustering PSD.\nIdentificazione del cluster “buona perfusione”.\n\nValidazione clinica\n\nAnalisi sensibilità/specificità.\nCurve ROC.\nConfronto con outcome clinici reali.",
+    "crumbs": [
+      "RPPG e segnali vitali"
+    ]
+  },
+  {
+    "objectID": "rppg.html#risultati-attesi",
+    "href": "rppg.html#risultati-attesi",
+    "title": "RPPG e segnali vitali",
+    "section": "Risultati Attesi",
+    "text": "Risultati Attesi\n\nPrototipo software per monitoraggio bedside del graft.\nDimostrazione della correlazione tra indice rPPG e vitalità clinica.\nIdentificazione precoce di graft failure.\nRiduzione della soggettività nella valutazione post-operatoria.\nModello interpretabile e explainable per uso clinico.",
+    "crumbs": [
+      "RPPG e segnali vitali"
+    ]
+  },
+  {
+    "objectID": "rppg.html#impatto",
+    "href": "rppg.html#impatto",
+    "title": "RPPG e segnali vitali",
+    "section": "Impatto",
+    "text": "Impatto\n\nMiglioramento della sicurezza post-operatoria.\nRiduzione di reinterventi tardivi.\nIntroduzione di monitoraggio continuo non invasivo.\nPotenziale estensione a:\n\nlembi microchirurgici,\ntrapianti complessi,\ntelemonitoraggio domiciliare.\n\n\nIl progetto rappresenta un ponte tra ingegneria biomedica, computer vision e chirurgia ricostruttiva, con applicazione diretta in contesto ospedaliero ad alta specializzazione.",
+    "crumbs": [
+      "RPPG e segnali vitali"
+    ]
+  },
+  {
+    "objectID": "hands1.html",
+    "href": "hands1.html",
+    "title": "hands 3D (1)",
+    "section": "",
+    "text": "Titolo: Predizione dell’Articolazione 3D della Mano tramite Decomposizione Spettrale Slow–Fast",
+    "crumbs": [
+      "hands 3D (1)"
+    ]
+  },
+  {
+    "objectID": "hands1.html#contesto",
+    "href": "hands1.html#contesto",
+    "title": "hands 3D (1)",
+    "section": "Contesto",
+    "text": "Contesto\nLa predizione dell’articolazione 3D della mano è un problema emergente distinto dal full-body motion forecasting.\nLa mano presenta:\n\ndinamiche ad alta dimensionalità (oltre 20 DOF),\ncoesistenza di movimenti lenti globali (polso/palmo),\nmovimenti rapidi e asincroni delle dita.\n\nRecenti lavori mostrano che la decomposizione in dominio frequenziale (DCT) con modellazione slow–fast migliora la coerenza temporale e riduce l’errore MPJPE.\nIl problema è formulato come:\nDato un segmento osservato \\(X_{1:T_{in}}\\), predire le configurazioni future \\(Y_{1:T_{out}}\\).",
+    "crumbs": [
+      "hands 3D (1)"
+    ]
+  },
+  {
+    "objectID": "hands1.html#obiettivo",
+    "href": "hands1.html#obiettivo",
+    "title": "hands 3D (1)",
+    "section": "Obiettivo",
+    "text": "Obiettivo\nProgettare e validare un modello di forecasting 3D della mano che:\n\nDisentangli dinamiche slow (wrist/palm) e fast (finger articulation).\nOperi in dominio DCT con gating adattivo.\nMantenga efficienza computazionale real-time.\nMigliori la coerenza biomeccanica delle traiettorie predette.",
+    "crumbs": [
+      "hands 3D (1)"
+    ]
+  },
+  {
+    "objectID": "hands1.html#attività",
+    "href": "hands1.html#attività",
+    "title": "hands 3D (1)",
+    "section": "Attività",
+    "text": "Attività\n\nFormalizzazione del problema\n\nRappresentazione traiettorie \\(P_{1:T} \\in \\mathbb{R}^{N \\times T}\\)\nResidual prediction rispetto all’ultimo frame osservato.\n\nProgettazione architettura\n\nProiezione DCT tipo-II\nDual-path slow/fast\nSigmoid spectral gates: \\[\ng_s(\\nu), \\quad g_f(\\nu)\n\\]\nFusione convessa learnable: \\[\n\\hat{C} = m \\odot \\hat{C}_s + (1-m)\\odot \\hat{C}_f\n\\]\n\nFunzione di costo\n\nMPJPE\nRegularizzazione lunghezze ossee\nCoerenza velocità articolare\n\nValutazione sperimentale\n\nDataset pubblici (AssemblyHands, H2O, FPHA, BigHand2.2M)\nAnalisi ablation (numero coefficienti DCT, rimozione gating, ecc.)\nConfronto con MLP, Transformer, GNN.",
+    "crumbs": [
+      "hands 3D (1)"
+    ]
+  },
+  {
+    "objectID": "hands1.html#risultati-attesi",
+    "href": "hands1.html#risultati-attesi",
+    "title": "hands 3D (1)",
+    "section": "Risultati Attesi",
+    "text": "Risultati Attesi\n\nRiduzione MPJPE rispetto a baseline MLP/Transformer.\nMaggiore coerenza temporale nelle traiettorie.\nDimostrazione che la decomposizione frequenziale è un bias efficace.\nModello lightweight (&lt;5 ms latency).",
+    "crumbs": [
+      "hands 3D (1)"
+    ]
+  },
+  {
+    "objectID": "hands1.html#impatto",
+    "href": "hands1.html#impatto",
+    "title": "hands 3D (1)",
+    "section": "Impatto",
+    "text": "Impatto\n\nApplicazioni in robotica collaborativa.\nAnticipazione del grasp.\nHuman–robot interaction.\nTelemanipolazione e realtà virtuale.",
+    "crumbs": [
+      "hands 3D (1)"
+    ]
+  },
+  {
+    "objectID": "hands2.html",
+    "href": "hands2.html",
+    "title": "Hands 3D (2)",
+    "section": "",
+    "text": "Titolo: Classificazione delle Azioni delle Mani tramite Modellazione Multi-Scala e Analisi Spettrale",
+    "crumbs": [
+      "Hands 3D (2)"
+    ]
+  },
+  {
+    "objectID": "hands2.html#contesto",
+    "href": "hands2.html#contesto",
+    "title": "Hands 3D (2)",
+    "section": "Contesto",
+    "text": "Contesto\nLa classificazione delle azioni della mano (es. pick, rotate, unscrew, remove) è cruciale per:\n\nriconoscimento di attività egocentriche,\nrobotica assistiva,\nmonitoraggio comportamentale,\nambienti smart healthcare.\n\nLe azioni della mano sono caratterizzate da:\n\npattern temporali multi-scala,\ncomponenti lente (configurazione globale),\ncomponenti veloci (micro-articolazioni delle dita).\n\nLa modellazione frequenziale slow–fast ha mostrato efficacia nella cattura delle dinamiche articolari.",
+    "crumbs": [
+      "Hands 3D (2)"
+    ]
+  },
+  {
+    "objectID": "hands2.html#obiettivo",
+    "href": "hands2.html#obiettivo",
+    "title": "Hands 3D (2)",
+    "section": "Obiettivo",
+    "text": "Obiettivo\nSviluppare un sistema di classificazione delle azioni delle mani che:\n\nUtilizzi decomposizione spettrale multi-scala.\nCombini informazioni lente e rapide.\nMigliori robustezza in scenari egocentrici.\nSia efficiente per applicazioni real-time.",
+    "crumbs": [
+      "Hands 3D (2)"
+    ]
+  },
+  {
+    "objectID": "hands2.html#attività",
+    "href": "hands2.html#attività",
+    "title": "Hands 3D (2)",
+    "section": "Attività",
+    "text": "Attività\n\nPreprocessing\n\nNormalizzazione wrist-centered.\nSegmentazione temporale.\nProiezione DCT delle traiettorie articolari.\n\nArchitettura\n\nFeature extraction slow/fast.\nGating frequenziale adattivo.\nAggregazione temporale (MLP o temporal pooling).\nTest confronto con:\n\nLSTM\nTransformer\nGNN\n\n\nLoss e Metriche\n\nCross-Entropy loss\nAccuracy\nF1-score\nConfusion matrix per analisi errori.\n\nAnalisi interpretabilità\n\nStudio frequenze discriminanti per ogni azione.\nSaliency su giunti più rilevanti.",
+    "crumbs": [
+      "Hands 3D (2)"
+    ]
+  },
+  {
+    "objectID": "hands2.html#risultati-attesi",
+    "href": "hands2.html#risultati-attesi",
+    "title": "Hands 3D (2)",
+    "section": "Risultati Attesi",
+    "text": "Risultati Attesi\n\nMiglioramento accuracy rispetto a modelli puramente temporali.\nIdentificazione di firme spettrali caratteristiche per azioni specifiche.\nSistema efficiente per embedded deployment.",
+    "crumbs": [
+      "Hands 3D (2)"
+    ]
+  },
+  {
+    "objectID": "hands2.html#impatto",
+    "href": "hands2.html#impatto",
+    "title": "Hands 3D (2)",
+    "section": "Impatto",
+    "text": "Impatto\n\nAnalisi comportamento umano.\nMonitoraggio riabilitazione motoria.\nRiconoscimento attività manuali in ambito sanitario.\nApplicazioni AR/VR e gaming.",
+    "crumbs": [
+      "Hands 3D (2)"
+    ]
+  }
+]
