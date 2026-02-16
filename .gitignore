@@ -32,3 +32,5 @@ _cache/
 
 /.quarto/
 **/*.quarto_ipynb
+.man
+landmarks.qmd

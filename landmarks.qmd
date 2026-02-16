@@ -2,6 +2,7 @@
 
 ## _Titolo:_ Analisi Automatizzata di Landmark 3D per il Riconoscimento Anatomico e il Supporto alle Decisioni Cliniche
 
+![](images/face3D.jpeg){fig-align="center" width="100%"}
 ## Contesto e Motivazione
 
 L’analisi dei *landmark* anatomici tridimensionali rappresenta uno strumento fondamentale per la descrizione quantitativa della morfologia umana a partire da dati di imaging 3D (TC, CBCT, scansioni ottiche, nuvole di punti).
